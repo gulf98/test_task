@@ -1,18 +1,40 @@
 {
   "floors": [
     {
-      "id": "2",
-      "name": "floor2",
-      "position": 2,
-      "is_default": false,
-      "house_id": "100"
+      "id": 1,
+      "house_id": 1,
+      "name": "-1",
+      "sort_pos": 0,
+      "is_default": false
     },
     {
-      "id": "1",
-      "name": "floor1",
-      "position": 1,
-      "is_default": true,
-      "house_id": "100"
+      "id": 2,
+      "house_id": 1,
+      "name": "1",
+      "sort_pos": 1,
+      "is_default": true
+    },
+    {
+      "id": 3,
+      "house_id": 1,
+      "name": "2",
+      "sort_pos": 2,
+      "is_default": false
+    },
+    {
+      "id": 4,
+      "house_id": 2,
+      "name": "-2",
+      "sort_pos": -2,
+      "is_default": false,
+      "is_metro_schema": true
+    },
+    {
+      "id": 5,
+      "house_id": 2,
+      "name": "-1",
+      "sort_pos": -1,
+      "is_default": true
     }
   ]
 }
